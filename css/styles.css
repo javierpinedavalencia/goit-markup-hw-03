@@ -1,0 +1,419 @@
+/* Estos configuraciòn es para quitarle los espacios pòr defecto al navegador  */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-color: #E5E5E5;
+  --main-color: #ffffff;
+  --logo-color-text: #2196f3;
+  --header-color: #ffffff;
+  --texto-menu-color: #212121;
+  --section-detalles-color: #2f303a;
+  --h1-color-white: #ffffff;
+  --section-attentin-text-color: #757575;
+  --titulo-our-team: #212121;
+  --footer-color-text1: #2f303a;
+  --footer-color-text2: rgba(255, 255, 255, 0.6);
+  /* --texto-p-color-portafolio:#757575; */
+}
+
+body {
+  margin: auto;
+  /* esto permite que la seccion se centre */
+  background-color: var(--body-color);
+  background-color: var(--body-color);
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-weight: 500;
+}
+
+/* esta configuracion es para quitar lo estilos y dejar todo por defecto en las img  */
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+main {
+  margin: auto;
+  /* esto permite que la seccion se centre */
+  background-color: var(--main-color);
+  width: 1600px;
+}
+
+/* class header  */
+header {
+  margin: auto;
+  /* esto permite que la seccion se centre */
+  width: 1600px;
+  height: 80px;
+  background-color: var(--header-color);
+  display: flex;
+  /* permite que los elementos queden en fila */
+  align-items: center;
+  /* centra el menu de forma y */
+  justify-content: center;
+  /* centra los elementos  */
+  padding-left: 200px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--texto-menu);
+}
+
+.header-nav-ul {
+  display: flex;
+  /* hace que los elementos se vuelvan en fila  */
+  align-items: center;
+  /* centra el menu de forma y */
+  padding-left: 100px;
+}
+
+header li {
+  display: inline-block;
+  /* quita los . (punto al elemento LI */
+  /* width: 50%; tampño del ancho del li de lcolor de  recuadro  */
+  padding: 5px 30px;
+  text-align: center;
+  /* centra el texto en el li */
+  color: var(--texto-menu);
+}
+
+.header-nav-social {
+  max-height: 80px;
+  display: flex;
+  /* hace que los elementos se vuelvan en fila  */
+  align-items: center;
+  padding-left: 150px;
+  color: var(--texto-menu-color);
+  /* color:var(--texto-menu-color) ; */
+
+}
+
+.logo {
+  color: var(--logo-color-text);
+  text-decoration: none;
+}
+
+/* color texto menu redes */
+.text-color {
+  color: var(--section-attentin-text-color)
+}
+
+/* pseudaclases de estado  */
+.link:hover,
+.link:focus {
+  color: var(--logo-color-text);
+}
+
+.link:active {
+  color: var(--logo-color-text);
+}
+
+/* section   sulution */
+h2 {
+  color: #212121;
+  text-align: center;
+}
+
+section {
+  margin: auto;
+  /* esto permite que la seccion se centre */
+  width: 1200px;
+  /* padding-top: 94px ;
+    padding-bottom: 94px; */
+}
+
+.section-solution {
+  margin: auto;
+  /* esto permite que la seccion se centre */
+  width: 1600px;
+  height: 600px;
+  background-color: var(--section-detalles-color);
+  color: var(--h1-color-white);
+  text-align: center;
+  /* padding: 200px; */
+}
+
+.h1-title {
+  color: var(--h1-color-white);
+  font-size: 44px;
+  text-align: center;
+  padding-top: 190px;
+}
+
+.button-main {
+  background-color: #2196f3;
+  color: var(--h1-color-white);
+  width: 240px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  /* margin-top: 40px; */
+  padding: 12px;
+  margin-top: 20px;
+}
+
+.button-main:hover {
+  background-color: #2174d4;
+}
+
+/*end sections */
+/* section attentin to detail */
+
+h3 {
+  color: var(--titulo-our-team);
+  padding: 20px 0px 20px 0px;
+}
+
+.section-attentin-detail-ul {
+  /* background-color: yellow; */
+  display: flex;
+  /* permite que los elementos queden en fila */
+  align-items: center;
+  /* centra el menu de forma y */
+  justify-content: center;
+  /* central en contendo*/
+  margin: 10px 0px 10px 0px;
+  padding: 20px 60px 20px 60px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.section-attentin-detail-li {
+  display: inline-block;
+  /* quita los . (punto al elemento LI */
+  text-align: justify;
+  padding: 20px;
+}
+
+.section-attentin-detail-li>p {
+  color: var(--section-attentin-text-color);
+  justify-content: center;
+  /* central en contendo*/
+  width: 270px;
+  height: 75px;
+}
+
+/*--------------.section-aque-nos-dedicamos -------------------------------*/
+h2 {
+  padding-top: 30px;
+}
+
+.section-aque-nos-dedicamos-ul {
+  display: flex;
+  /* permite que los elementos queden en fila */
+  align-items: center;
+  /* centra el menu de forma y */
+  justify-content: center;
+  /* central en contendo*/
+  list-style: none;
+  margin: 10px 0px 10px 0px;
+}
+
+.section-aque-nos-dedicamos-li {
+  display: inline-block;
+  /* quita los . (punto al elemento LI */
+  text-align: justify;
+  padding: 20px;
+}
+
+.section-attentin-detail-img {
+  width: 373.16px;
+  height: 323.7px;
+  padding: 2px;
+}
+
+.section-attentin-detail-img:hover {
+  background-color: var(--logo-color-text);
+}
+
+/*--------------.section-aque-nos-dedicamos -------------------------------*/
+
+/* --- inicio section-aour team ---- */
+.title-our-team {
+  margin: 30PX 0PX 25PX 0PX;
+}
+
+
+.section-nuestro-equipo-ul {
+  display: flex;
+  /* permite que los elementos queden en fila */
+  align-items: center;
+  /* centra el menu de forma y */
+  justify-content: center;
+  /* central en contendo*/
+  list-style: none;
+  padding-bottom: 90px;
+}
+
+.section-nuestro-equipo-li {
+  color: var(--section-attentin-text-color);
+  text-align: center;
+  padding: 30px 9px 20px 9px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin: 10px;
+}
+
+.img-our-team {
+  width: 270px;
+  height: 260px;
+}
+
+.section-nuestro-equipo-li:hover,
+.img-our-team :hover {
+  background-color: whitesmoke;
+}
+
+/* --- end  section-aour team ---- */
+
+/* ---------start footer   ------------------------------------------------------------------------ */
+footer {
+  margin: auto;
+  /* esto permite que la seccion se centre */
+  height: 255px;
+  width: 1600px;
+  background-color: var(--footer-color-text1);
+  padding-left: 190px;
+  padding-top: 50px;
+}
+
+.footer-address-li {
+  list-style: none;
+  /* quita las puntico a lo li */
+  text-decoration: none;
+  padding-top: 2px;
+  margin-top: 2px;
+}
+
+.footer-address-li-address {
+  color: var(--h1-color-white);
+}
+
+.footer-address-li>a {
+  text-decoration: none;
+}
+
+.li-info-whatsapp {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address-li>a:hover,
+.footer-address-li>a:focus {
+  color: var(--logo-color-text);
+}
+
+.footer-address-li:active {
+  color: var(--logo-color-text);
+}
+
+/* ---------end  footer   --------------- */
+/* ////////////////////////////////////////////////////////////// */
+
+/* --------------START STYLES PAGE FORTAFOLIO ------------------------------------------------------- */
+
+/* ------start style page Portafolio -------------------------------------------------------------*/
+.section-buttons-ul {
+  /* background-color: yellow; */
+  display: flex;
+  /* permite que los elementos queden en fila */
+  align-items: center;
+  /* centra el menu de forma y */
+  justify-content: center;
+  /* central en contendo*/
+  /* margin: 10px 0px 10px 0px; */
+  padding: 30px 60px 0px 60px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.section-buttons-ul li {
+  list-style: none;
+  /* quita las puntico a lo li */
+  display: inline-block;
+  /* coloca el menu el horizontal */
+  margin: 0px 20px 0px 20px;
+}
+
+.section-buttons {
+  background-color: #f5f4fa;
+  color: var(--titulo-our-team);
+  font-size: 16px;
+  line-height: 26px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 17px 8px 17px;
+}
+
+/* ----pseudaclases buttons -----------------------*/
+/* .link {color: var(--texto-menu-color);} */
+/* pseudaclases de estado  */
+.buttons-li:hover,
+.buttons-li:focus {
+  background-color: var(--logo-color-text);
+  color: var(--h1-color-white);
+}
+
+.link:active {
+  color: var(--logo-color-text);
+}
+
+/* .link:visited {
+  color: var(--logo-color-text);
+} */
+
+/* ----------start secction  one -two -three ----- */
+
+.div-main-portafolio {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.section-two-ul {
+  display: flex;
+  /* permite que los elementos queden en fila */
+  align-items: center;
+  /* centra el menu de forma y */
+  justify-content: center;
+  /* central en contendo*/
+  list-style: none;
+  /* padding-bottom: 94px; */
+}
+
+.section-two-li {
+  display: inline-block;
+  /* quita los . (punto al elemento LI */
+  text-align: justify;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin: 7px;
+  border: 1px solid #EEEEEE;
+}
+
+.section-two-img {
+  width: 370px;
+  height: 294px;
+}
+
+.section-two-li:hover,
+.section-two-img:hover {
+  background-color: whitesmoke;
+  /* color: var(--h1-color-white); */
+}
+
+.section-two-li>p {
+  color: var(--section-attentin-text-color);
+}
+
+/* margin del titulo y texto de las card */
+.footer-card-portafolio {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* -------------end------------------------- */
