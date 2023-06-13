@@ -6,7 +6,7 @@
 }
 
 :root {
-  --body-color: #E5E5E5;
+  --body-color: #e5e5e5;
   --main-color: #ffffff;
   --logo-color-text: #2196f3;
   --header-color: #ffffff;
@@ -89,7 +89,6 @@ header li {
   padding-left: 150px;
   color: var(--texto-menu-color);
   /* color:var(--texto-menu-color) ; */
-
 }
 
 .logo {
@@ -99,7 +98,7 @@ header li {
 
 /* color texto menu redes */
 .text-color {
-  color: var(--section-attentin-text-color)
+  color: var(--section-attentin-text-color);
 }
 
 /* pseudaclases de estado  */
@@ -191,7 +190,7 @@ h3 {
   padding: 20px;
 }
 
-.section-attentin-detail-li>p {
+.section-attentin-detail-li > p {
   color: var(--section-attentin-text-color);
   justify-content: center;
   /* central en contendo*/
@@ -225,7 +224,7 @@ h2 {
 .section-attentin-detail-img {
   width: 373.16px;
   height: 323.7px;
-  padding: 2px;
+  /* padding: 2px; */
 }
 
 .section-attentin-detail-img:hover {
@@ -236,9 +235,8 @@ h2 {
 
 /* --- inicio section-aour team ---- */
 .title-our-team {
-  margin: 30PX 0PX 25PX 0PX;
+  margin: 30px 0px 25px 0px;
 }
-
 
 .section-nuestro-equipo-ul {
   display: flex;
@@ -254,7 +252,8 @@ h2 {
 .section-nuestro-equipo-li {
   color: var(--section-attentin-text-color);
   text-align: center;
-  padding: 30px 9px 20px 9px;
+  /* padding: 30px 9px 20px 9px; */
+  padding: 0px 0px 20px 0px;
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin: 10px;
@@ -295,7 +294,7 @@ footer {
   color: var(--h1-color-white);
 }
 
-.footer-address-li>a {
+.footer-address-li > a {
   text-decoration: none;
 }
 
@@ -303,8 +302,8 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-address-li>a:hover,
-.footer-address-li>a:focus {
+.footer-address-li > a:hover,
+.footer-address-li > a:focus {
   color: var(--logo-color-text);
 }
 
@@ -392,7 +391,7 @@ footer {
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin: 7px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 
 .section-two-img {
@@ -406,7 +405,7 @@ footer {
   /* color: var(--h1-color-white); */
 }
 
-.section-two-li>p {
+.section-two-li > p {
   color: var(--section-attentin-text-color);
 }
 
